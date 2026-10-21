@@ -16,8 +16,8 @@ import { Stage3Result } from './components/Stage3Result';
 import { Stage4TeacherPanel } from './components/Stage4TeacherPanel';
 import { TeacherAuthModal } from './components/TeacherAuthModal';
 
-const STORAGE_QUESTIONS_KEY = 'sd3_pancasila_bab2_kelas4_v1';
-const STORAGE_ALLOW_REVIEW_KEY = 'sd3_pancasila_allow_review_v1';
+const STORAGE_QUESTIONS_KEY = 'sd3_pancasila_aturan_berbagai_tempat_v1';
+const STORAGE_ALLOW_REVIEW_KEY = 'sd3_pancasila_allow_review_v2';
 
 export default function App() {
   // Tahap aktif: 1 (Identitas), 2 (Soal Tes), 3 (Hasil Tes), 4 (Panel Guru)

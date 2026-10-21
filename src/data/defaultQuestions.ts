@@ -3,7 +3,7 @@ import { Question } from '../types';
 export const INITIAL_QUESTIONS: Question[] = [
   // =========================================================================
   // BAGIAN 1: PILIHAN GANDA (25 BUTIR SOAL)
-  // Materi: Bab 2 Aturan di Lingkungan Sekitar - Kelas 4
+  // Materi: Aturan, Jenis-Jenis Aturan di Berbagai Tempat (Kelas 4 SD)
   // =========================================================================
 
   // Soal 1: Pengertian Aturan
@@ -12,662 +12,662 @@ export const INITIAL_QUESTIONS: Question[] = [
     type: 'pg',
     topic: 'Pengertian Aturan',
     difficulty: 'Mudah',
-    text: 'Ketentuan atau petunjuk yang dibuat untuk mengatur tingkah laku manusia dalam kehidupan bermasyarakat agar tercipta ketertiban disebut...',
+    text: 'Petunjuk, patokan, atau ketentuan yang dibuat untuk membatasi dan mengarahkan tingkah laku manusia agar tercipta ketertiban dan keamanan dalam kehidupan bersama dinamakan...',
     options: [
-      { id: 'A', text: 'Aturan atau norma' },
+      { id: 'A', text: 'Aturan' },
       { id: 'B', text: 'Hak istimewa' },
-      { id: 'C', text: 'Saran bebas' },
-      { id: 'D', text: 'Pujian bersama' },
+      { id: 'C', text: 'Pujian' },
+      { id: 'D', text: 'Keinginan pribadi' },
     ],
     correctAnswer: 'A',
     explanation:
-      'Aturan atau norma adalah ketentuan atau kaidah yang mengikat warga kelompok dalam masyarakat yang dipakai sebagai panduan, tatanan, dan pengendali tingkah laku yang sesuai dan berterima.',
+      'Aturan adalah ketentuan atau pedoman yang mengikat warga suatu kelompok atau tempat, yang berfungsi mengatur perilaku agar tercipta ketertiban, keadilan, dan kenyamanan bersama.',
   },
 
-  // Soal 2: Macam Norma - Norma Agama
+  // Soal 2: Tujuan Dibuatnya Aturan di Berbagai Tempat
   {
     id: 2,
     type: 'pg',
-    topic: 'Norma Agama',
+    topic: 'Tujuan Aturan',
     difficulty: 'Mudah',
-    text: 'Sebelum makan dan memulai kegiatan belajar di kelas, Bu Guru mengajak semua siswa untuk berdoa sesuai dengan agama dan kepercayaannya masing-masing. Kebiasaan berdoa ini merupakan pengamalan dari norma...',
+    text: 'Di mana pun kita berada, baik di rumah, sekolah, maupun tempat umum, selalu terdapat aturan. Tujuan utama dibuatnya aturan di berbagai tempat tersebut adalah untuk...',
     options: [
-      { id: 'A', text: 'Norma hukum' },
-      { id: 'B', text: 'Norma agama' },
-      { id: 'C', text: 'Norma kesopanan' },
-      { id: 'D', text: 'Norma kebiasaan' },
+      { id: 'A', text: 'Membatasi kebebasan seseorang agar selalu merasa takut' },
+      { id: 'B', text: 'Menciptakan ketertiban, keamanan, dan kedamaian hidup bersama' },
+      { id: 'C', text: 'Memberikan hukuman yang seberat-beratnya kepada warga' },
+      { id: 'D', text: 'Membedakan hak warga yang kaya dan warga yang miskin' },
     ],
     correctAnswer: 'B',
     explanation:
-      'Norma agama bersumber dari wahyu Tuhan Yang Maha Esa yang mengatur hubungan manusia dengan Tuhan, sesama manusia, dan alam. Berdoa sebelum beraktivitas adalah contoh pengamalan norma agama.',
+      'Tujuan utama dibuatnya aturan di berbagai tempat adalah menciptakan ketertiban, keamanan, kenyamanan, serta keharmonisan di antara seluruh orang yang berada di tempat tersebut.',
   },
 
-  // Soal 3: Macam Norma - Norma Kesusilaan
+  // Soal 3: Jenis Aturan Tertulis
   {
     id: 3,
     type: 'pg',
-    topic: 'Norma Kesusilaan',
-    difficulty: 'Sedang',
-    text: 'Edo menemukan uang Rp20.000,00 yang terjatuh di halaman sekolah. Edo langsung membawanya ke ruang guru piket untuk diumumkan kepada pemiliknya. Sikap jujur Edo tersebut didorong oleh norma kesusilaan yang bersumber dari...',
+    topic: 'Aturan Tertulis',
+    difficulty: 'Mudah',
+    text: 'Aturan yang dituangkan dalam bentuk tulisan atau dokumen resmi, dipajang, atau dibukukan agar dibaca dan dipatuhi oleh semua orang disebut aturan...',
     options: [
-      { id: 'A', text: 'Undang-undang resmi pemerintah' },
-      { id: 'B', text: 'Hati nurani dan kalbu manusia' },
-      { id: 'C', text: 'Kesepakatan warga rukun tetangga' },
-      { id: 'D', text: 'Peraturan dari kepala sekolah' },
+      { id: 'A', text: 'Tertulis' },
+      { id: 'B', text: 'Tidak tertulis' },
+      { id: 'C', text: 'Bebas' },
+      { id: 'D', text: 'Adat lisan' },
     ],
-    correctAnswer: 'B',
+    correctAnswer: 'A',
     explanation:
-      'Norma kesusilaan bersumber dari hati nurani manusia mengenai apa yang baik dan buruk. Orang yang jujur dan mengembalikan barang milik orang lain didorong oleh bisikan hati nuraninya.',
+      'Aturan tertulis adalah aturan yang dibuat secara resmi dalam bentuk tulisan atau dokumen yang disahkan oleh pihak berwenang, seperti tata tertib sekolah dan undang-undang.',
   },
 
-  // Soal 4: Macam Norma - Norma Kesopanan
+  // Soal 4: Contoh Aturan Tertulis di Tempat Umum
   {
     id: 4,
     type: 'pg',
-    topic: 'Norma Kesopanan',
-    difficulty: 'Mudah',
-    text: 'Ketika bertemu dengan bapak atau ibu guru di jalan, sikap sopan yang sebaiknya dilakukan oleh siswa kelas 4 adalah...',
+    topic: 'Aturan Tertulis',
+    difficulty: 'Sedang',
+    text: 'Contoh aturan tertulis yang sering kita jumpai terpampang di tempat-tempat umum seperti rumah sakit dan pom bensin adalah...',
     options: [
-      { id: 'A', text: 'Pura-pura tidak melihat dan berlari' },
-      { id: 'B', text: 'Menyapa dengan ramah sambil tersenyum' },
-      { id: 'C', text: 'Menundukkan kepala sambil bersembunyi' },
-      { id: 'D', text: 'Meneriaki guru dengan suara keras' },
+      { id: 'A', text: 'Papan larangan "Dilarang Merokok" dan "Harap Menjaga Ketenangan"' },
+      { id: 'B', text: 'Membungkukkan badan saat berjalan di depan orang yang lebih tua' },
+      { id: 'C', text: 'Mengucapkan kata tolong saat meminta bantuan' },
+      { id: 'D', text: 'Menyapa tetangga saat berpapasan di gang' },
     ],
-    correctAnswer: 'B',
+    correctAnswer: 'A',
     explanation:
-      'Menyapa guru dengan ramah dan tersenyum merupakan wujud penerapan norma kesopanan yang bersumber dari tata krama pergaulan hidup bermasyarakat.',
+      'Papan larangan "Dilarang Merokok" atau "Harap Tenang" merupakan aturan tertulis yang dipasang secara resmi di tempat umum demi keselamatan dan ketertiban pengunjung.',
   },
 
-  // Soal 5: Macam Norma - Norma Hukum
+  // Soal 5: Jenis Aturan Tidak Tertulis
   {
     id: 5,
     type: 'pg',
-    topic: 'Norma Hukum',
-    difficulty: 'Sedang',
-    text: 'Ciri utama norma hukum yang membedakannya secara tegas dari norma lainnya adalah...',
+    topic: 'Aturan Tidak Tertulis',
+    difficulty: 'Mudah',
+    text: 'Aturan yang tidak dicatat dalam buku resmi melainkan tumbuh, disepakati, dan diwariskan secara lisan dalam kebiasaan hidup bermasyarakat dinamakan aturan...',
     options: [
-      { id: 'A', text: 'Sanksinya berupa perasaan malu dan bersalah' },
-      { id: 'B', text: 'Sifatnya mengikat dan sanksinya tegas serta nyata dari aparat penegak hukum' },
-      { id: 'C', text: 'Berasal dari kebiasaan turun-temurun antartetangga' },
-      { id: 'D', text: 'Hanya berlaku bagi anak-anak usia sekolah' },
+      { id: 'A', text: 'Tertulis' },
+      { id: 'B', text: 'Tidak tertulis' },
+      { id: 'C', text: 'Undang-undang pidana' },
+      { id: 'D', text: 'Peraturan pemerintah' },
     ],
     correctAnswer: 'B',
     explanation:
-      'Norma hukum dibuat oleh lembaga berwenang (negara/pemerintah), bersifat mengikat secara menyeluruh, serta memiliki sanksi yang tegas, nyata, dan memaksa seperti denda atau kurungan.',
+      'Aturan tidak tertulis adalah norma atau kebiasaan sopan santun yang disepakati bersama oleh warga masyarakat tanpa dibukukan secara formal.',
   },
 
-  // Soal 6: Aturan Tertulis
+  // Soal 6: Contoh Aturan Tidak Tertulis dalam Pergaulan
   {
     id: 6,
     type: 'pg',
-    topic: 'Bentuk Aturan',
-    difficulty: 'Mudah',
-    text: 'Berikut ini merupakan contoh aturan tertulis yang biasanya dipajang di dinding sekolah adalah...',
+    topic: 'Aturan Tidak Tertulis',
+    difficulty: 'Sedang',
+    text: 'Berikut ini merupakan contoh nyata dari pelaksanaan aturan tidak tertulis yang mencerminkan kesopanan di lingkungan sekitar kita adalah...',
     options: [
-      { id: 'A', text: 'Mengucapkan permisi saat lewat di depan orang tua' },
-      { id: 'B', text: 'Tata tertib siswa dan jadwal piket kebersihan kelas' },
-      { id: 'C', text: 'Membantu tetangga memindahkan meja' },
-      { id: 'D', text: 'Makan menggunakan tangan kanan' },
+      { id: 'A', text: 'Mengetuk pintu dan mengucap salam sebelum memasuki rumah orang lain' },
+      { id: 'B', text: 'Menyalakan lampu sein saat hendak berbelok di jalan raya' },
+      { id: 'C', text: 'Membayar karcis retribusi sebelum masuk ke tempat wisata' },
+      { id: 'D', text: 'Mengisi buku daftar hadir siswa setiap pagi di kelas' },
     ],
-    correctAnswer: 'B',
+    correctAnswer: 'A',
     explanation:
-      'Tata tertib sekolah dan jadwal piket merupakan aturan tertulis karena dicatat, dibukukan, atau dipajang secara resmi sebagai pedoman yang wajib dipatuhi.',
+      'Mengetuk pintu dan mengucap salam merupakan tata krama pergaulan (aturan tidak tertulis) yang diajarkan turun-temurun untuk menghormati tuan rumah.',
   },
 
-  // Soal 7: Aturan Tidak Tertulis
+  // Soal 7: Aturan di Lingkungan Rumah - Bangun Pagi
   {
     id: 7,
     type: 'pg',
-    topic: 'Bentuk Aturan',
-    difficulty: 'Sedang',
-    text: 'Contoh aturan tidak tertulis yang hidup dan berkembang dalam kebiasaan masyarakat kita adalah...',
+    topic: 'Aturan di Rumah',
+    difficulty: 'Mudah',
+    text: 'Made membiasakan diri bangun pagi pukul 05.30, segera merapikan tempat tidurnya, dan mandi tanpa harus disuruh oleh ibunya. Tindakan Made mencerminkan...',
     options: [
-      { id: 'A', text: 'Undang-Undang Lalu Lintas Jalan Raya' },
-      { id: 'B', text: 'Peraturan Daerah tentang Izin Mendirikan Bangunan' },
-      { id: 'C', text: 'Mengetuk pintu dan mengucap salam sebelum masuk ke rumah tetangga' },
-      { id: 'D', text: 'Tata tertib ujian sumatif semester' },
+      { id: 'A', text: 'Rasa terpaksa karena takut dimarahi guru' },
+      { id: 'B', text: 'Ketaatan dan disiplin terhadap aturan di rumah' },
+      { id: 'C', text: 'Keinginan untuk menyombongkan diri kepada temannya' },
+      { id: 'D', text: 'Kepatuhan terhadap tata tertib di perpustakaan' },
     ],
-    correctAnswer: 'C',
+    correctAnswer: 'B',
     explanation:
-      'Mengetuk pintu dan mengucap salam merupakan norma kesopanan dan adat kebiasaan (aturan tidak tertulis) yang disepakati bersama dalam pergaulan masyarakat.',
+      'Bangun tepat waktu dan merapikan kamar sendiri merupakan bentuk ketaatan terhadap aturan di rumah yang menumbuhkan sikap mandiri dan disiplin.',
   },
 
-  // Soal 8: Aturan di Lingkungan Rumah
+  // Soal 8: Aturan di Lingkungan Rumah - Izin Bepergian
   {
     id: 8,
     type: 'pg',
     topic: 'Aturan di Rumah',
     difficulty: 'Mudah',
-    text: 'Setiap pagi setelah bangun tidur, hal baik yang mencerminkan ketaatan terhadap aturan di rumah adalah...',
+    text: 'Ketika diajak teman bermain ke lapangan sepak bola pada sore hari, aturan penting di rumah yang wajib dilakukan terlebih dahulu adalah...',
     options: [
-      { id: 'A', text: 'Merapikan tempat tidur dan membuka jendela kamar' },
-      { id: 'B', text: 'Langsung menyalakan televisi dengan volume tinggi' },
-      { id: 'C', text: 'Membiarkan selimut berantakan di lantai' },
-      { id: 'D', text: 'Bermain telepon pintar hingga terlambat sarapan' },
-    ],
-    correctAnswer: 'A',
-    explanation:
-      'Merapikan tempat tidur sendiri adalah salah satu aturan penting di rumah yang melatih kemandirian, tanggung jawab, dan kebersihan diri anak.',
-  },
-
-  // Soal 9: Aturan Belajar di Rumah
-  {
-    id: 9,
-    type: 'pg',
-    topic: 'Aturan di Rumah',
-    difficulty: 'Mudah',
-    text: 'Keluarga Dayu membuat kesepakatan bersama bahwa pukul 19.00 sampai 20.30 adalah jam belajar di rumah. Manfaat dari mematuhi aturan tersebut adalah...',
-    options: [
-      { id: 'A', text: 'Membuat Dayu merasa tertekan dan tidak bisa bermain' },
-      { id: 'B', text: 'Membantu Dayu belajar dengan lebih teratur dan disiplin' },
-      { id: 'C', text: 'Supaya Dayu mendapat uang saku lebih banyak' },
-      { id: 'D', text: 'Membatasi Dayu untuk berkomunikasi dengan orang tua' },
+      { id: 'A', text: 'Langsung pergi tanpa memberitahu siapa pun di rumah' },
+      { id: 'B', text: 'Meminta izin dan berpamitan kepada orang tua' },
+      { id: 'C', text: 'Mengunci pintu rumah dari luar dan membawa kuncinya' },
+      { id: 'D', text: 'Menunggu orang tua tertidur baru keluar rumah' },
     ],
     correctAnswer: 'B',
     explanation:
-      'Adanya jam belajar di rumah membantu anak mengelola waktu dengan disiplin dan teratur, sehingga materi pelajaran dapat dipahami dengan optimal.',
+      'Meminta izin dan berpamitan kepada orang tua sebelum bepergian adalah aturan penting di rumah agar orang tua tidak khawatir dan mengetahui keberadaan kita.',
   },
 
-  // Soal 10: Aturan di Lingkungan Sekolah
+  // Soal 9: Aturan di Lingkungan Sekolah - Upacara Bendera
+  {
+    id: 9,
+    type: 'pg',
+    topic: 'Aturan di Sekolah',
+    difficulty: 'Mudah',
+    text: 'Aturan di SD Negeri 3 Loloan Timur mewajibkan setiap siswa hadir sebelum pukul 07.00 dan berbaris rapi mengikuti upacara bendera setiap hari Senin. Manfaat menaati aturan tersebut adalah...',
+    options: [
+      { id: 'A', text: 'Melatih jiwa disiplin, cinta tanah air, dan rasa persatuan' },
+      { id: 'B', text: 'Menghabiskan waktu belajar agar tidak ada ulangan' },
+      { id: 'C', text: 'Mencari siswa yang seragamnya paling mahal' },
+      { id: 'D', text: 'Menghindari tugas kebersihan kelas' },
+    ],
+    correctAnswer: 'A',
+    explanation:
+      'Mengikuti upacara bendera dengan tertib dan tepat waktu melatih kedisiplinan, memupuk rasa nasionalisme, serta menghargai jasa para pahlawan bangsa.',
+  },
+
+  // Soal 10: Aturan di Lingkungan Sekolah - Suasana Belajar
   {
     id: 10,
     type: 'pg',
     topic: 'Aturan di Sekolah',
-    difficulty: 'Mudah',
-    text: 'Aturan penggunaan seragam di SD Negeri 3 Loloan Timur mewajibkan siswa memakai pakaian seragam yang rapi dan atribut lengkap pada saat upacara bendera. Tujuan utama aturan tersebut adalah...',
+    difficulty: 'Sedang',
+    text: 'Saat bapak atau ibu guru sedang menerangkan pelajaran di depan kelas, aturan kelas yang harus ditaati oleh seluruh siswa adalah...',
     options: [
-      { id: 'A', text: 'Membedakan siswa yang kaya dan yang sederhana' },
-      { id: 'B', text: 'Menanamkan rasa disiplin, persatuan, dan kerapian' },
-      { id: 'C', text: 'Memberikan beban tambahan bagi orang tua siswa' },
-      { id: 'D', text: 'Menghabiskan waktu persiapan sebelum upacara' },
+      { id: 'A', text: 'Berbicara dengan teman sebangku dengan suara lantang' },
+      { id: 'B', text: 'Mendengarkan dengan sungguh-sungguh dan mengangkat tangan jika ingin bertanya' },
+      { id: 'C', text: 'Berjalan-jalan mengelilingi ruang kelas' },
+      { id: 'D', text: 'Mengerjakan permainan gim di bawah laci meja' },
     ],
     correctAnswer: 'B',
     explanation:
-      'Penggunaan seragam lengkap bertujuan menumbuhkan kedisiplinan, rasa kebersamaan tanpa membeda-bedakan status sosial, serta kerapian di lingkungan sekolah.',
+      'Mendengarkan penjelasan guru dan meminta izin atau mengangkat tangan jika hendak bertanya merupakan aturan penting di kelas agar proses belajar berjalan lancar dan tertib.',
   },
 
-  // Soal 11: Aturan di Lingkungan Sekolah - Piket
+  // Soal 11: Aturan di Perpustakaan Sekolah
   {
     id: 11,
     type: 'pg',
-    topic: 'Aturan di Sekolah',
-    difficulty: 'Sedang',
-    text: 'Lani mendapat jadwal piket kelas pada hari Rabu. Sikap yang mencerminkan tanggung jawab terhadap aturan piket adalah...',
+    topic: 'Aturan di Perpustakaan',
+    difficulty: 'Mudah',
+    text: 'Perpustakaan adalah tempat yang disediakan untuk membaca dan meminjam buku. Aturan khusus yang wajib dipatuhi saat berada di dalam perpustakaan adalah...',
     options: [
-      { id: 'A', text: 'Datang lebih awal untuk menyapu dan membersihkan papan tulis bersama regu piket' },
-      { id: 'B', text: 'Menyuruh teman sekelas lain menggantikan tugasnya' },
-      { id: 'C', text: 'Menunggu bel masuk baru mulai mencari sapu' },
-      { id: 'D', text: 'Pulang terlebih dahulu saat pelajaran telah selesai' },
+      { id: 'A', text: 'Membawa makanan berat dan makan bersama di meja baca' },
+      { id: 'B', text: 'Menjaga ketenangan, tidak bersuara gaduh, dan mengembalikan buku ke tempatnya' },
+      { id: 'C', text: 'Menyobek halaman buku yang berisi gambar menarik' },
+      { id: 'D', text: 'Berlari-lari mengejar teman di antara rak buku' },
     ],
-    correctAnswer: 'A',
+    correctAnswer: 'B',
     explanation:
-      'Datang lebih awal dan melaksanakan tugas piket dengan sungguh-sungguh merupakan wujud tanggung jawab dan kepatuhan terhadap aturan sekolah.',
+      'Aturan di perpustakaan mewajibkan pengunjung menjaga ketenangan agar tidak mengganggu pembaca lain, dilarang makan/minum, dan merawat buku dengan baik.',
   },
 
-  // Soal 12: Aturan di Lingkungan Masyarakat - Bertetangga
+  // Soal 12: Aturan di Tempat Ibadah - Suasana Tenang
   {
     id: 12,
     type: 'pg',
-    topic: 'Aturan di Masyarakat',
-    difficulty: 'Sedang',
-    text: 'Saat tetangga di sebelah rumah sedang ada anggota keluarga yang sakit parah, aturan kesopanan dan tenggang rasa di masyarakat mengharuskan kita untuk...',
+    topic: 'Aturan di Tempat Ibadah',
+    difficulty: 'Mudah',
+    text: 'Ketika memasuki tempat ibadah seperti masjid, pura, gereja, atau wihara, aturan yang harus kita junjung tinggi adalah...',
     options: [
-      { id: 'A', text: 'Memutar musik dengan pengeras suara di halaman' },
-      { id: 'B', text: 'Menjaga ketenangan dan tidak membuat keributan di dekat rumahnya' },
-      { id: 'C', text: 'Bermain bola di depan teras rumah tetangga tersebut' },
-      { id: 'D', text: 'Mengabaikan keadaan dan tetap berteriak saat bermain' },
+      { id: 'A', text: 'Berpakaian sopan, bersih, menjaga kesucian, dan tidak membuat keributan' },
+      { id: 'B', text: 'Bercanda dan berteriak-teriak di ruang ibadah' },
+      { id: 'C', text: 'Menyalakan nada dering telepon genggam dengan suara keras' },
+      { id: 'D', text: 'Menggunakan alas kaki berlumpur ke dalam area suci' },
     ],
-    correctAnswer: 'B',
+    correctAnswer: 'A',
     explanation:
-      'Menjaga ketenangan dan tidak berisik di dekat rumah tetangga yang sedang sakit adalah bentuk tenggang rasa, kepedulian, dan penerapan norma kesopanan.',
+      'Tempat ibadah adalah tempat suci untuk beribadah kepada Tuhan YME. Aturannya mencakup berpakaian sopan dan bersih, menjaga keheningan, serta melepas alas kaki jika disyaratkan.',
   },
 
-  // Soal 13: Gotong Royong Warga
+  // Soal 13: Aturan di Tempat Ibadah - Menghargai Keragaman
   {
     id: 13,
     type: 'pg',
-    topic: 'Aturan di Masyarakat',
-    difficulty: 'Mudah',
-    text: 'Di lingkungan RT tempat tinggal Made diadakan kerja bakti membersihkan selokan setiap hari Minggu pagi. Peran yang dapat dilakukan anak usia kelas 4 untuk mendukung aturan lingkungan tersebut adalah...',
+    topic: 'Aturan di Tempat Ibadah',
+    difficulty: 'Sedang',
+    text: 'Saat warga sekitar sedang melaksanakan ibadah di tempat ibadahnya, sikap yang mencerminkan ketaatan terhadap aturan bertoleransi di masyarakat adalah...',
     options: [
-      { id: 'A', text: 'Mengeruk selokan yang dalam sendirian' },
-      { id: 'B', text: 'Membantu menyapu daun kering dan membuang sampah ringan ke tempatnya' },
-      { id: 'C', text: 'Tidur di kamar hingga kerja bakti selesai' },
-      { id: 'D', text: 'Menonton dari kejauhan sambil bermain gim di gawai' },
+      { id: 'A', text: 'Membunyikan petasan atau klakson motor dengan keras di depannya' },
+      { id: 'B', text: 'Menjaga ketenangan dan tidak mengganggu jalannya peribadatan' },
+      { id: 'C', text: 'Melarang orang lain melaksanakan ibadah agamanya' },
+      { id: 'D', text: 'Menertawakan tata cara ibadah yang berbeda dengan kita' },
     ],
     correctAnswer: 'B',
     explanation:
-      'Anak kelas 4 dapat berpartisipasi sesuai kemampuan usianya, misalnya membantu menyapu halaman, mengumpulkan sampah kering, atau membantu membagikan minuman.',
+      'Aturan hidup bermasyarakat di Indonesia menjamin kebebasan beribadah. Menjaga ketenangan saat umat lain beribadah merupakan wujud toleransi dan penghormatan antarumat beragama.',
   },
 
-  // Soal 14: Hak Anak di Rumah
+  // Soal 14: Aturan di Jalan Raya - Menggunakan Trotoar & Zebra Cross
   {
     id: 14,
     type: 'pg',
-    topic: 'Hak dan Kewajiban',
+    topic: 'Aturan di Jalan Raya',
     difficulty: 'Mudah',
-    text: 'Sesuatu yang mutlak menjadi milik seseorang dan penggunaannya tergantung kepada orang tersebut disebut hak. Contoh hak yang berhak diterima anak di rumah adalah...',
+    text: 'Sebagai pejalan kaki, aturan keselamatan di jalan raya yang benar saat hendak menyeberang jalan adalah...',
     options: [
-      { id: 'A', text: 'Mendapat kasih sayang, perlindungan, dan makanan bergizi dari orang tua' },
-      { id: 'B', text: 'Membeli barang mewah apapun yang diinginkan tanpa batas' },
-      { id: 'C', text: 'Bebas bermain semalaman tanpa belajar' },
-      { id: 'D', text: 'Menyuruh adik mengerjakan tugas sekolahnya' },
+      { id: 'A', text: 'Menyeberang sambil berlari tiba-tiba di tikungan tajam' },
+      { id: 'B', text: 'Menyeberang melalui zebra cross atau jembatan penyeberangan orang (JPO)' },
+      { id: 'C', text: 'Menyeberang sambil menatap layar telepon genggam tanpa melihat jalan' },
+      { id: 'D', text: 'Melompati pagar pembatas jalan di jalan tol' },
     ],
-    correctAnswer: 'A',
+    correctAnswer: 'B',
     explanation:
-      'Hak anak di rumah antara lain mendapatkan kasih sayang, perlindungan dari bahaya, pemenuhan kebutuhan dasar (makanan sehat, pakaian, tempat tinggal layak), dan bimbingan orang tua.',
+      'Zebra cross dan JPO disediakan sebagai fasilitas resmi penyeberangan pejalan kaki agar terhindar dari bahaya kecelakaan lalu lintas.',
   },
 
-  // Soal 15: Kewajiban Anak di Rumah
+  // Soal 15: Aturan di Jalan Raya - Pengendara Sepeda Motor
   {
     id: 15,
     type: 'pg',
-    topic: 'Hak dan Kewajiban',
+    topic: 'Aturan di Jalan Raya',
     difficulty: 'Mudah',
-    text: 'Sesuatu yang harus dikerjakan dengan penuh rasa tanggung jawab disebut kewajiban. Contoh kewajiban anak terhadap orang tua di rumah adalah...',
+    text: 'Setiap pengendara dan penumpang sepeda motor diwajibkan memakai helm berstandar SNI dan mengunci talinya. Tujuan aturan keselamatan jalan raya ini adalah...',
     options: [
-      { id: 'A', text: 'Menuntut uang saku yang banyak' },
-      { id: 'B', text: 'Menghormati orang tua dan membantu pekerjaan rumah sesuai kemampuan' },
-      { id: 'C', text: 'Menentukan menu makanan keluarga setiap hari' },
-      { id: 'D', text: 'Mengatur keuangan belanja rumah tangga' },
-    ],
-    correctAnswer: 'B',
-    explanation:
-      'Menghormati orang tua, berkata sopan, dan membantu pekerjaan ringan di rumah (seperti menyapu dan merapikan mainan) merupakan kewajiban utama anak di rumah.',
-  },
-
-  // Soal 16: Keseimbangan Hak dan Kewajiban
-  {
-    id: 16,
-    type: 'pg',
-    topic: 'Hak dan Kewajiban',
-    difficulty: 'Sedang',
-    text: 'Dalam kehidupan sehari-hari, hubungan antara pelaksanaan hak dan kewajiban harus dilaksanakan secara seimbang, artinya...',
-    options: [
-      { id: 'A', text: 'Kita harus menuntut hak terlebih dahulu sebelum melakukan kewajiban' },
-      { id: 'B', text: 'Kita harus mendahulukan kewajiban dengan tanggung jawab baru menuntut hak' },
-      { id: 'C', text: 'Kewajiban boleh diabaikan jika hak sudah kita terima' },
-      { id: 'D', text: 'Hak hanya diberikan kepada orang yang memiliki jabatan tinggi' },
-    ],
-    correctAnswer: 'B',
-    explanation:
-      'Keseimbangan hak dan kewajiban berarti kita harus mendahulukan pelaksanaan kewajiban dengan penuh tanggung jawab sebelum menuntut pemenuhan hak.',
-  },
-
-  // Soal 17: Hak Anak di Sekolah
-  {
-    id: 17,
-    type: 'pg',
-    topic: 'Hak di Sekolah',
-    difficulty: 'Mudah',
-    text: 'Beni adalah siswa kelas 4 di SD Negeri 3 Loloan Timur. Hak Beni saat berada di sekolah adalah...',
-    options: [
-      { id: 'A', text: 'Mencoret-coret meja dan dinding perpustakaan' },
-      { id: 'B', text: 'Mendapatkan pengajaran, bimbingan, dan perlakuan adil dari guru' },
-      { id: 'C', text: 'Meninggalkan kelas sesuka hati saat guru sedang mengajar' },
-      { id: 'D', text: 'Menggunakan lapangan olahraga sendirian tanpa berbagi' },
-    ],
-    correctAnswer: 'B',
-    explanation:
-      'Setiap siswa berhak memperoleh pendidikan yang layak, perlakuan adil tanpa diskriminasi, bimbingan ilmu pengetahuan, serta menggunakan sarana belajar sekolah.',
-  },
-
-  // Soal 18: Kewajiban terhadap Fasilitas Umum
-  {
-    id: 18,
-    type: 'pg',
-    topic: 'Aturan Fasilitas Umum',
-    difficulty: 'Sedang',
-    text: 'Di taman bermain lingkungan sekitar terdapat ayunan, perosotan, dan tempat duduk umum. Kewajiban kita saat menggunakan fasilitas umum tersebut adalah...',
-    options: [
-      { id: 'A', text: 'Menggunakan fasilitas dengan tertib, bergantian, dan menjaga kebersihannya' },
-      { id: 'B', text: 'Menuliskan nama kita menggunakan spidol permanen di tiang ayunan' },
-      { id: 'C', text: 'Menguasai mainan sepanjang hari agar teman lain tidak bisa memakai' },
-      { id: 'D', text: 'Membuang bungkus makanan ringan di bawah bangku taman' },
+      { id: 'A', text: 'Melindungi kepala dari benturan berbahaya jika terjadi kecelakaan' },
+      { id: 'B', text: 'Supaya tidak dikenali oleh orang lain di jalan' },
+      { id: 'C', text: 'Sebagai hiasan agar terlihat keren' },
+      { id: 'D', text: 'Menghindari rasa dingin pada wajah saat malam hari' },
     ],
     correctAnswer: 'A',
     explanation:
-      'Fasilitas umum adalah milik bersama. Setiap warga wajib merawat, menjaga kebersihan, tidak merusak (vandalisme), serta antre menggunakan dengan tertib.',
+      'Memakai helm berstandar SNI adalah aturan hukum keselamatan berkendara yang berfungsi melindungi organ kepala dari cedera fatal saat terjadi benturan.',
   },
 
-  // Soal 19: Musyawarah dalam Membuat Aturan
+  // Soal 16: Aturan di Kendaraan Umum - Memberikan Kursi Prioritas
+  {
+    id: 16,
+    type: 'pg',
+    topic: 'Aturan di Kendaraan Umum',
+    difficulty: 'Sedang',
+    text: 'Saat menaiki bus umum atau kereta api, Edo melihat seorang nenek lansia yang berdiri karena tidak mendapat tempat duduk. Aturan kesopanan dan kepedulian yang sebaiknya dilakukan Edo adalah...',
+    options: [
+      { id: 'A', text: 'Pura-pura tidur agar tidak perlu berdiri' },
+      { id: 'B', text: 'Mempersilakan nenek tersebut menempati tempat duduknya' },
+      { id: 'C', text: 'Menyuruh nenek tersebut turun dari bus' },
+      { id: 'D', text: 'Meminta uang jika nenek tersebut ingin duduk' },
+    ],
+    correctAnswer: 'B',
+    explanation:
+      'Di transportasi umum terdapat aturan tertulis maupun norma kesopanan mengenai "kursi prioritas" yang diutamakan untuk lansia, ibu hamil, penyandang disabilitas, dan ibu membawa balita.',
+  },
+
+  // Soal 17: Aturan di Tempat Wisata / Taman Rekreasi
+  {
+    id: 17,
+    type: 'pg',
+    topic: 'Aturan di Tempat Wisata',
+    difficulty: 'Mudah',
+    text: 'Saat berkunjung ke Kebun Raya atau taman rekreasi alam, terdapat papan aturan: "DILARANG MEMETIK BUNGA DAN MENGINJAK RUMPUT HIAS". Sikap pengunjung yang baik adalah...',
+    options: [
+      { id: 'A', text: 'Memetik bunga secara sembunyi-sembunyi untuk oleh-oleh' },
+      { id: 'B', text: 'Mematuhi larangan dengan berjalan di jalur pejalan kaki dan menikmati keindahan tanpa merusak' },
+      { id: 'C', text: 'Menginjak rumput beramai-ramai untuk berfoto' },
+      { id: 'D', text: 'Mencabut tanaman hias dan membawanya pulang' },
+    ],
+    correctAnswer: 'B',
+    explanation:
+      'Mematuhi aturan di tempat wisata bertujuan menjaga kelestarian, keindahan tanaman, dan fasilitas taman agar tetap asri dan dapat dinikmati bersama.',
+  },
+
+  // Soal 18: Aturan Membuang Sampah di Tempat Umum
+  {
+    id: 18,
+    type: 'pg',
+    topic: 'Aturan di Tempat Umum',
+    difficulty: 'Mudah',
+    text: 'Beni membeli es krim saat berjalan-jalan di alun-alun kota. Setelah es krim habis, namun di dekatnya belum ada tempat sampah, tindakan tertib yang tepat adalah...',
+    options: [
+      { id: 'A', text: 'Menyelipkan bungkus plastik ke bawah pot bunga kota' },
+      { id: 'B', text: 'Melempar bungkus ke selokan air' },
+      { id: 'C', text: 'Menyimpan bungkus es krim di dalam saku atau tas hingga menemukan tempat sampah' },
+      { id: 'D', text: 'Membuang bungkus di jalan karena ada petugas kebersihan' },
+    ],
+    correctAnswer: 'C',
+    explanation:
+      'Aturan menjaga kebersihan di tempat umum mengharuskan kita membuang sampah pada tempatnya. Jika belum menemukan tempat sampah, sampah disimpan terlebih dahulu.',
+  },
+
+  // Soal 19: Aturan Mengantre di Fasilitas Umum
   {
     id: 19,
     type: 'pg',
-    topic: 'Musyawarah Lingkungan',
-    difficulty: 'Sedang',
-    text: 'Saat warga kelas 4 ingin menyusun jadwal kebersihan kelas dan tata tertib regu piket, cara terbaik yang sesuai dengan sila keempat Pancasila adalah...',
+    topic: 'Aturan di Tempat Umum',
+    difficulty: 'Mudah',
+    text: 'Di loket tiket bioskop, loket stasiun, maupun kasir kantin, orang-orang berbaris urut ke belakang. Budaya mengantre ini merupakan aturan yang mengajarkan kita nilai...',
     options: [
-      { id: 'A', text: 'Ketua kelas memutuskan sendiri tanpa meminta pendapat teman lain' },
-      { id: 'B', text: 'Bermusyawarah bersama seluruh teman sekelas untuk mencapai mufakat' },
-      { id: 'C', text: 'Menentukan jadwal berdasarkan siswa yang paling ditakuti' },
-      { id: 'D', text: 'Menyerahkan seluruh tugas piket kepada siswa yang paling pendiam' },
+      { id: 'A', text: 'Keserakahan dan egois' },
+      { id: 'B', text: 'Kesabaran, keadilan, dan saling menghargai hak orang lain' },
+      { id: 'C', text: 'Kelicikan dalam menyerobot barisan' },
+      { id: 'D', text: 'Kekuatan fisik siapa yang paling cepat menyikut' },
     ],
     correctAnswer: 'B',
     explanation:
-      'Musyawarah untuk mufakat adalah cara terbaik dalam mengambil keputusan bersama di kelas sesuai dengan nilai-nilai luhur Pancasila sila ke-4.',
+      'Aturan mengantre melatih kesabaran, kedisiplinan, keadilan, serta menghargai orang lain yang telah datang lebih dahulu.',
   },
 
-  // Soal 20: Sikap terhadap Keputusan Musyawarah
+  // Soal 20: Aturan di Lingkungan Masyarakat - Tamu Wajib Lapor
   {
     id: 20,
     type: 'pg',
-    topic: 'Musyawarah Lingkungan',
+    topic: 'Aturan di Lingkungan Masyarakat',
     difficulty: 'Sedang',
-    text: 'Setelah musyawarah kelas selesai dan aturan disepakati bersama, sikap yang wajib ditunjukkan oleh seluruh siswa adalah...',
+    text: 'Di pos ronda masuk desa terdapat plang aturan tertulis: "TAMU MENGINAP 1X24 JAM WAJIB LAPOR KETUA RT". Tujuan aturan lingkungan warga ini adalah...',
     options: [
-      { id: 'A', text: 'Menolak aturan jika pendapat pribadinya tidak diterima' },
-      { id: 'B', text: 'Melaksanakan keputusan bersama tersebut dengan ikhlas dan penuh tanggung jawab' },
-      { id: 'C', text: 'Pura-pura lupa terhadap hasil musyawarah yang telah disepakati' },
-      { id: 'D', text: 'Mencela teman yang memberikan usulan saat musyawarah' },
+      { id: 'A', text: 'Menarik iuran uang sebanyak-banyaknya dari tamu' },
+      { id: 'B', text: 'Menjaga keamanan lingkungan sekitar dan mendata orang baru demi ketenteraman warga' },
+      { id: 'C', text: 'Melarang warga memiliki kerabat dari luar kota' },
+      { id: 'D', text: 'Menyusahkan para pengunjung yang datang' },
     ],
     correctAnswer: 'B',
     explanation:
-      'Semua peserta musyawarah berkewajiban menghormati dan melaksanakan hasil keputusan bersama dengan iktikad baik dan rasa tanggung jawab, meskipun usul pribadinya berbeda.',
+      'Aturan tamu lapor 1x24 jam dibuat demi menjaga keamanan lingkungan sekitar, mencegah kejahatan, dan mempermudah bantuan darurat apabila terjadi hal yang tidak diinginkan.',
   },
 
-  // Soal 21: Manfaat Menaati Aturan
+  // Soal 21: Aturan di Lingkungan Masyarakat - Jam Tenang
   {
     id: 21,
     type: 'pg',
-    topic: 'Manfaat Aturan',
-    difficulty: 'Mudah',
-    text: 'Jika seluruh warga di lingkungan sekitar selalu mematuhi aturan jam malam dan tamu wajib lapor 1x24 jam, maka suasana lingkungan akan menjadi...',
+    topic: 'Aturan di Lingkungan Masyarakat',
+    difficulty: 'Sedang',
+    text: 'Di lingkungan tempat tinggal Siti terdapat kesepakatan bahwa setelah pukul 21.00 malam diberlakukan jam tenang. Sikap warga yang mematuhi aturan tersebut adalah...',
     options: [
-      { id: 'A', text: 'Kacau, menegangkan, dan sering terjadi perselisihan' },
-      { id: 'B', text: 'Aman, tenteram, nyaman, dan terhindar dari gangguan kejahatan' },
-      { id: 'C', text: 'Sepi dan warga tidak boleh saling mengenal' },
-      { id: 'D', text: 'Penuh rasa curiga antarwarga tetangga' },
+      { id: 'A', text: 'Membunyikan knalpot brong motor dengan suara memekakkan telinga' },
+      { id: 'B', text: 'Mengecilkan volume televisi/musik dan tidak membuat kegaduhan agar warga dapat beristirahat' },
+      { id: 'C', text: 'Berteriak-teriak memanggil teman di depan rumah tetangga' },
+      { id: 'D', text: 'Menyalakan mesin pertukangan kayu di teras' },
     ],
     correctAnswer: 'B',
     explanation:
-      'Mematuhi aturan keamanan lingkungan membuat suasana tempat tinggal menjadi aman, tertib, damai, dan terhindar dari potensi tindak kejahatan.',
+      'Jam tenang di lingkungan masyarakat bertujuan memberikan hak istirahat yang nyaman bagi seluruh warga tetangga tanpa terganggu oleh suara bising.',
   },
 
-  // Soal 22: Akibat Melanggar Aturan di Jalan Raya
+  // Soal 22: Aturan di Rumah Sakit / Puskesmas
   {
     id: 22,
     type: 'pg',
-    topic: 'Akibat Melanggar Aturan',
-    difficulty: 'Mudah',
-    text: 'Seorang pengendara sepeda motor menerobos lampu merah di perempatan jalan. Akibat berbahaya yang dapat terjadi dari pelanggaran norma hukum lalu lintas tersebut adalah...',
+    topic: 'Aturan di Rumah Sakit',
+    difficulty: 'Sedang',
+    text: 'Saat menjenguk teman atau kerabat yang sedang dirawat di rumah sakit, aturan yang harus kita patuhi adalah...',
     options: [
-      { id: 'A', text: 'Jalan raya menjadi lebih lancar dan lengang' },
-      { id: 'B', text: 'Dapat menyebabkan kecelakaan yang membahayakan diri sendiri dan pengguna jalan lain' },
-      { id: 'C', text: 'Pengendara mendapat hadiah dari petugas kepolisian' },
-      { id: 'D', text: 'Waktu tempuh semua kendaraan menjadi lebih cepat' },
+      { id: 'A', text: 'Menjenguk pada jam besuk yang ditentukan dan tidak berbicara dengan suara keras' },
+      { id: 'B', text: 'Membawa rombongan teman satu kelas masuk ke ruang perawatan sekaligus' },
+      { id: 'C', text: 'Bermain kejar-kejaran di lorong kamar pasien' },
+      { id: 'D', text: 'Mencoba-coba menekan tombol alat medis pasien' },
     ],
-    correctAnswer: 'B',
+    correctAnswer: 'A',
     explanation:
-      'Melanggar rambu lalu lintas berisiko fatal memicu tabrakan/kecelakaan yang mencelakai diri sendiri dan orang lain serta terkena sanksi hukum dari polisi.',
+      'Aturan di rumah sakit mewajibkan pembatasan pengunjung sesuai jam besuk, menjaga ketenangan, dan mencuci tangan demi pemulihan pasien dan mencegah penularan penyakit.',
   },
 
-  // Soal 23: Sanksi Norma Kesopanan
+  // Soal 23: Akibat Melanggar Aturan di Tempat Wisata
   {
     id: 23,
     type: 'pg',
-    topic: 'Sanksi Norma',
-    difficulty: 'Sukar',
-    text: 'Seseorang yang sering berkata kotor, menyela pembicaraan orang yang lebih tua, dan tidak sopan dalam pergaulan di desanya biasanya akan mendapatkan sanksi sosial berupa...',
+    topic: 'Akibat Melanggar Aturan',
+    difficulty: 'Sedang',
+    text: 'Seorang pengunjung mencorat-coret dinding candi bersejarah menggunakan cat semprot (vandalisme). Akibat buruk dari pelanggaran aturan tersebut adalah...',
     options: [
-      { id: 'A', text: 'Hukuman kurungan penjara selama lima tahun' },
-      { id: 'B', text: 'Teguran, celaan, atau dijauhi oleh teman dan warga sekitar' },
-      { id: 'C', text: 'Denda uang tunai ratusan juta rupiah' },
-      { id: 'D', text: 'Penyitaan seluruh harta benda miliknya' },
+      { id: 'A', text: 'Candi bersejarah menjadi semakin indah dan terkenal' },
+      { id: 'B', text: 'Merusak situs cagar budaya warisan leluhur dan pelakunya dapat dikenai sanksi pidana' },
+      { id: 'C', text: 'Pengunjung lain akan berterima kasih atas karya lukisannya' },
+      { id: 'D', text: 'Meningkatkan jumlah wisatawan mancanegara' },
     ],
     correctAnswer: 'B',
     explanation:
-      'Sanksi pelanggaran norma kesopanan tidak berupa hukuman pidana penjara, melainkan sanksi sosial seperti teguran, rasa malu, celaan, atau dijauhi dari pergaulan masyarakat.',
+      'Mencoret-coret fasilitas umum dan situs cagar budaya adalah perbuatan vandalisme yang merusak keaslian sejarah serta melanggar hukum perlindungan cagar budaya.',
   },
 
-  // Soal 24: Menghargai Keragaman Norma Adat
+  // Soal 24: Sanksi Pelanggaran Aturan di Berbagai Tempat
   {
     id: 24,
     type: 'pg',
-    topic: 'Norma di Masyarakat',
-    difficulty: 'Sedang',
-    text: 'Di Indonesia setiap daerah memiliki adat istiadat dan aturan kebiasaan masing-masing. Sikap kita saat berkunjung ke daerah lain yang memiliki aturan adat berbeda adalah...',
+    topic: 'Sanksi Aturan',
+    difficulty: 'Sukar',
+    text: 'Setiap aturan selalu disertai dengan sanksi bagi pelanggarnya. Perbedaan sanksi antara pelanggaran aturan hukum di jalan raya dengan aturan kesopanan di meja makan keluarga adalah...',
     options: [
-      { id: 'A', text: 'Memaksakan kebiasaan daerah asal kita kepada warga setempat' },
-      { id: 'B', text: 'Menghormati dan mematuhi aturan adat setempat ("di mana bumi dipijak, di situ langit dijunjung")' },
-      { id: 'C', text: 'Mengejek tradisi dan tata cara warga yang berbeda dengan kita' },
-      { id: 'D', text: 'Mengabaikan seluruh peraturan desa adat setempat' },
+      { id: 'A', text: 'Pelanggaran lalu lintas disanksi tilang/denda resmi, sedangkan di meja makan berupa teguran atau nasihat orang tua' },
+      { id: 'B', text: 'Pelanggaran di meja makan dijatuhi hukuman kurungan penjara' },
+      { id: 'C', text: 'Pelanggaran lalu lintas tidak pernah dikenai sanksi apapun' },
+      { id: 'D', text: 'Kedua pelanggaran tersebut sama-sama diadili oleh hakim di pengadilan negeri' },
     ],
-    correctAnswer: 'B',
+    correctAnswer: 'A',
     explanation:
-      'Peribahasa "di mana bumi dipijak, di situ langit dijunjung" mengajarkan kita untuk selalu menghormati dan menaati norma atau aturan adat di manapun kita berada.',
+      'Aturan hukum (seperti lalu lintas) memiliki sanksi resmi yang tegas dan memaksa dari aparat berwenang (tilang/denda), sedangkan aturan kesopanan di rumah disanksi secara kekeluargaan melalui nasihat atau teguran.',
   },
 
-  // Soal 25: Perilaku Disiplin Pelajar Pancasila
+  // Soal 25: Perilaku Sadar Aturan di Mana Pun Berada
   {
     id: 25,
     type: 'pg',
-    topic: 'Penerapan Aturan',
-    difficulty: 'Mudah',
-    text: 'Tindakan berikut ini yang merupakan contoh penerapan Profil Pelajar Pancasila dalam menaati aturan di lingkungan sekitar adalah...',
+    topic: 'Perilaku Sadar Aturan',
+    difficulty: 'Sedang',
+    text: 'Peribahasa Indonesia "Di mana bumi dipijak, di situ langit dijunjung" mengandung pesan moral yang sangat luhur dalam mematuhi aturan, yaitu...',
     options: [
-      { id: 'A', text: 'Menaati aturan hanya apabila ada guru atau polisi yang mengawasi' },
-      { id: 'B', text: 'Membuang sampah ke tempat sampah dengan kesadaran diri sendiri demi kebersihan bersama' },
-      { id: 'C', text: 'Menyeberang jalan sembarangan saat jalanan sedang sepi' },
-      { id: 'D', text: 'Meninggalkan kran air mengalir di toilet sekolah' },
+      { id: 'A', text: 'Kita hanya perlu mematuhi aturan saat berada di rumah kita sendiri' },
+      { id: 'B', text: 'Di mana pun kita berada, kita harus selalu menghormati dan mematuhi aturan yang berlaku di tempat tersebut' },
+      { id: 'C', text: 'Kita harus memaksakan aturan daerah asal kita kepada warga daerah lain' },
+      { id: 'D', text: 'Aturan boleh dilanggar jika tidak ada kamera pengawas' },
     ],
     correctAnswer: 'B',
     explanation:
-      'Membuang sampah pada tempatnya atas kesadaran diri sendiri tanpa harus diawasi merupakan wujud nyata karakter Pelajar Pancasila yang mandiri, berakhlak mulia, dan berdisiplin tinggi.',
+      'Peribahasa tersebut bermakna bahwa di manapun kita tinggal atau berada, kita wajib menghormati, menyesuaikan diri, dan mematuhi aturan serta adat istiadat setempat.',
   },
 
   // =========================================================================
   // BAGIAN 2: PILIHAN GANDA KOMPLEKS (PGK) KATEGORI PERNYATAAN (BENAR / SALAH)
-  // 5 BUTIR SOAL - SETIAP PERNYATAAN HARUS DIRESPON
+  // 5 BUTIR SOAL - SETIAP PERNYATAAN WAJIB DIRESPON BENAR ATAU SALAH
   // =========================================================================
 
-  // Soal 26 (PGK Kategori 1): Norma Agama dan Kesusilaan
+  // Soal 26 (PGK Kategori 1): Aturan di Rumah dan Aturan di Sekolah
   {
     id: 26,
     type: 'pgk_kategori',
-    topic: 'Norma Agama & Kesusilaan',
+    topic: 'Aturan di Rumah & Sekolah',
     difficulty: 'Sedang',
-    text: 'Perhatikan pernyataan-pernyataan mengenai norma agama dan norma kesusilaan berikut ini. Tentukan apakah setiap pernyataan bernilai BENAR atau SALAH!',
+    text: 'Perhatikan pernyataan-pernyataan mengenai aturan di rumah dan di sekolah berikut ini. Tentukan apakah setiap butir bernilai BENAR atau SALAH!',
     statements: [
       {
         id: 's1',
-        text: 'Norma agama bersumber dari wahyu Tuhan Yang Maha Esa dan sanksi pelanggarannya berupa dosa di akhirat.',
+        text: 'Membantu mencuci piring sendiri setelah makan merupakan salah satu contoh ketaatan terhadap aturan di rumah.',
         correctAnswer: true,
       },
       {
         id: 's2',
-        text: 'Seseorang yang berbohong kepada orang tua akan merasa bersalah dan gelisah karena melanggar norma kesusilaan.',
-        correctAnswer: true,
+        text: 'Memakai sepatu berwarna bebas sesuka hati pada saat upacara bendera hari Senin diperbolehkan dalam tata tertib sekolah.',
+        correctAnswer: false,
       },
       {
         id: 's3',
-        text: 'Norma kesusilaan dibuat secara resmi oleh Dewan Perwakilan Rakyat (DPR) dalam bentuk undang-undang tertulis.',
-        correctAnswer: false,
+        text: 'Melaksanakan jadwal piket kebersihan kelas bersama teman regu merupakan wujud tanggung jawab terhadap aturan sekolah.',
+        correctAnswer: true,
       },
     ],
     explanation:
-      'Pernyataan 1 BENAR (norma agama bersumber dari Tuhan YME). Pernyataan 2 BENAR (pelanggaran norma kesusilaan menimbulkan penyesalan dan rasa bersalah di hati nurani). Pernyataan 3 SALAH karena aturan yang dibuat DPR dalam bentuk undang-undang tertulis adalah norma hukum, bukan norma kesusilaan.',
+      'Pernyataan 1 BENAR (mencuci piring adalah aturan mandiri di rumah). Pernyataan 2 SALAH (upacara bendera mewajibkan sepatu hitam bertali sesuai tata tertib seragam). Pernyataan 3 BENAR (piket kelas adalah aturan sekolah).',
   },
 
-  // Soal 27 (PGK Kategori 2): Norma Kesopanan dan Norma Hukum
+  // Soal 27 (PGK Kategori 2): Aturan di Tempat Ibadah dan Tempat Wisata
   {
     id: 27,
     type: 'pgk_kategori',
-    topic: 'Norma Kesopanan & Hukum',
+    topic: 'Aturan Tempat Ibadah & Wisata',
     difficulty: 'Sedang',
-    text: 'Tentukan BENAR atau SALAH pada pernyataan mengenai perbedaan norma kesopanan dan norma hukum berikut ini!',
+    text: 'Tentukan BENAR atau SALAH pada pernyataan mengenai aturan di tempat ibadah dan tempat wisata di bawah ini!',
     statements: [
       {
         id: 's1',
-        text: 'Norma kesopanan berlaku sama persis dan seragam di seluruh belahan dunia tanpa membedakan suku maupun budaya.',
-        correctAnswer: false,
-      },
-      {
-        id: 's2',
-        text: 'Norma hukum memiliki sanksi yang nyata, tegas, dan dapat dipaksakan oleh aparat penegak hukum seperti polisi dan pengadilan.',
+        text: 'Saat berada di tempat ibadah, kita harus menonaktifkan nada dering telepon genggam agar tidak mengganggu kekhusyukan jamaah.',
         correctAnswer: true,
       },
       {
+        id: 's2',
+        text: 'Pengunjung tempat wisata diperbolehkan membuang botol plastik ke sungai atau danau asalkan tidak terlihat petugas.',
+        correctAnswer: false,
+      },
+      {
         id: 's3',
-        text: 'Memakai helm standar saat mengendarai sepeda motor di jalan raya adalah kewajiban yang diatur dalam norma hukum.',
+        text: 'Mengantre dengan tertib saat membeli tiket masuk wahana rekreasi mencerminkan sikap menghargai hak pengunjung lain.',
         correctAnswer: true,
       },
     ],
     explanation:
-      'Pernyataan 1 SALAH (norma kesopanan bersifat lokal/relatif tergantung adat istiadat setempat). Pernyataan 2 BENAR (sanksi norma hukum tegas dan memaksa). Pernyataan 3 BENAR (kewajiban helm diatur dalam UU Lalu Lintas).',
+      'Pernyataan 1 BENAR (menjaga ketenangan di tempat ibadah). Pernyataan 2 SALAH (membuang sampah ke sungai/danau dilarang keras karena mencemari lingkungan wisata). Pernyataan 3 BENAR (antre adalah aturan etika fasilitas wisata).',
   },
 
-  // Soal 28 (PGK Kategori 3): Hak dan Kewajiban Anak di Sekolah
+  // Soal 28 (PGK Kategori 3): Aturan Tertulis dan Tidak Tertulis di Berbagai Tempat
   {
     id: 28,
     type: 'pgk_kategori',
-    topic: 'Hak dan Kewajiban di Sekolah',
+    topic: 'Jenis Aturan Tertulis & Tidak Tertulis',
     difficulty: 'Sedang',
-    text: 'Analisis pernyataan mengenai hak dan kewajiban peserta didik di lingkungan sekolah berikut ini. Tentukan BENAR atau SALAH!',
+    text: 'Analisis pernyataan mengenai perbedaan jenis aturan tertulis dan tidak tertulis di berbagai tempat. Tentukan BENAR atau SALAH!',
     statements: [
       {
         id: 's1',
-        text: 'Meminjam buku pelajaran di perpustakaan sekolah merupakan salah satu hak yang dimiliki oleh setiap siswa.',
+        text: 'Rambu lampu lalu lintas di jalan raya merupakan bentuk aturan tertulis yang memiliki lambang dan makna resmi.',
         correctAnswer: true,
       },
       {
         id: 's2',
-        text: 'Mendengarkan penjelasan guru dengan tenang saat kegiatan belajar mengajar berlangsung merupakan kewajiban siswa.',
-        correctAnswer: true,
+        text: 'Aturan tidak tertulis boleh diabaikan begitu saja karena pelanggarnya tidak akan pernah ditegur oleh masyarakat sekitar.',
+        correctAnswer: false,
       },
       {
         id: 's3',
-        text: 'Siswa yang rajin boleh melanggar aturan tata tertib sekolah tanpa dikenai teguran apapun.',
-        correctAnswer: false,
+        text: 'Mengucapkan kata "permisi" saat berjalan melintas di depan orang tua yang sedang duduk merupakan contoh aturan tidak tertulis.',
+        correctAnswer: true,
       },
     ],
     explanation:
-      'Pernyataan 1 BENAR (menggunakan fasilitas perpustakaan adalah hak). Pernyataan 2 BENAR (memperhatikan guru adalah kewajiban). Pernyataan 3 SALAH karena tata tertib sekolah berlaku bagi seluruh warga sekolah tanpa terkecuali.',
+      'Pernyataan 1 BENAR (rambu lalu lintas adalah aturan tertulis resmi). Pernyataan 2 SALAH (pelanggaran aturan tidak tertulis mendapat sanksi sosial berupa teguran dan celaan). Pernyataan 3 BENAR (mengucap permisi adalah norma kesopanan tidak tertulis).',
   },
 
-  // Soal 29 (PGK Kategori 4): Aturan Tertulis dan Tidak Tertulis
+  // Soal 29 (PGK Kategori 4): Aturan di Perpustakaan dan Rumah Sakit
   {
     id: 29,
     type: 'pgk_kategori',
-    topic: 'Aturan Tertulis & Tidak Tertulis',
+    topic: 'Aturan di Perpustakaan & Rumah Sakit',
     difficulty: 'Sedang',
-    text: 'Tentukan BENAR atau SALAH untuk setiap pernyataan mengenai bentuk aturan tertulis dan tidak tertulis di bawah ini!',
+    text: 'Tentukan BENAR atau SALAH untuk setiap pernyataan mengenai aturan di perpustakaan dan rumah sakit berikut ini!',
     statements: [
       {
         id: 's1',
-        text: 'Rambu lalu lintas, undang-undang, dan peraturan sekolah adalah contoh dari aturan tertulis.',
+        text: 'Di dalam ruang perpustakaan, pengunjung dilarang makan, minum, dan bercakap-cakap dengan suara keras.',
         correctAnswer: true,
       },
       {
         id: 's2',
-        text: 'Aturan tidak tertulis biasanya diwariskan secara lisan dan tumbuh dalam kebiasaan hidup bermasyarakat.',
-        correctAnswer: true,
+        text: 'Di rumah sakit, setiap orang bebas berkunjung pada jam berapa pun tanpa perlu mematuhi jadwal jam besuk pasien.',
+        correctAnswer: false,
       },
       {
         id: 's3',
-        text: 'Aturan tidak tertulis boleh dilanggar semau kita karena tidak ada buku undang-undangnya.',
-        correctAnswer: false,
+        text: 'Menjaga keheningan di sekitar ruang rawat inap rumah sakit sangat penting agar pasien dapat beristirahat dan lekas sembuh.',
+        correctAnswer: true,
       },
     ],
     explanation:
-      'Pernyataan 1 BENAR (rambu dan tata tertib adalah aturan tertulis). Pernyataan 2 BENAR (aturan tidak tertulis berupa adat dan tradisi lisan). Pernyataan 3 SALAH karena aturan tidak tertulis tetap wajib dipatuhi untuk menjaga keharmonisan hidup bersama.',
+      'Pernyataan 1 BENAR (aturan perpustakaan melarang makan/minum dan kegaduhan). Pernyataan 2 SALAH (rumah sakit memiliki jam besuk ketat demi ketenangan pasien). Pernyataan 3 BENAR (ketenangan membantu pemulihan kondisi pasien).',
   },
 
-  // Soal 30 (PGK Kategori 5): Musyawarah dan Pembuatan Aturan di Lingkungan
+  // Soal 30 (PGK Kategori 5): Aturan di Lingkungan Masyarakat dan Jalan Raya
   {
     id: 30,
     type: 'pgk_kategori',
-    topic: 'Musyawarah & Pembuatan Aturan',
+    topic: 'Aturan Masyarakat & Jalan Raya',
     difficulty: 'Sukar',
-    text: 'Tentukan BENAR atau SALAH pada pernyataan mengenai proses pembuatan aturan di lingkungan sekitar berikut ini!',
+    text: 'Tentukan BENAR atau SALAH pada pernyataan mengenai penerapan aturan di lingkungan masyarakat dan jalan raya berikut!',
     statements: [
       {
         id: 's1',
-        text: 'Aturan di lingkungan RT/RW dibuat melalui musyawarah warga untuk mewujudkan ketertiban dan ketenteraman bersama.',
+        text: 'Warga yang memelihara hewan peliharaan berkewajiban menjaga agar hewannya tidak mengotori atau membahayakan tetangga sekitar.',
         correctAnswer: true,
       },
       {
         id: 's2',
-        text: 'Dalam musyawarah, setiap peserta boleh memaksakan kehendak pribadinya kepada peserta yang lain.',
+        text: 'Anak-anak kelas 4 SD yang belum cukup umur sudah diperbolehkan mengendarai sepeda motor sendiri di jalan raya umum.',
         correctAnswer: false,
       },
       {
         id: 's3',
-        text: 'Hasil keputusan musyawarah yang telah disepakati wajib dipatuhi oleh seluruh warga lingkungan tersebut.',
+        text: 'Berpartisipasi dalam kegiatan kerja bakti membersihkan lingkungan tempat tinggal merupakan wujud ketaatan terhadap aturan warga.',
         correctAnswer: true,
       },
     ],
     explanation:
-      'Pernyataan 1 BENAR (aturan warga disusun melalui musyawarah mufakat). Pernyataan 2 SALAH (dalam musyawarah dilarang memaksakan kehendak). Pernyataan 3 BENAR (keputusan mufakat mengikat semua warga untuk dilaksanakan dengan tanggung jawab).',
+      'Pernyataan 1 BENAR (pemilik hewan wajib bertanggung jawab menjaga ketertiban lingkungan). Pernyataan 2 SALAH (anak di bawah umur dilarang mengendarai motor menurut UU Lalu Lintas). Pernyataan 3 BENAR (kerja bakti adalah kewajiban hidup bermasyarakat).',
   },
 
   // =========================================================================
   // BAGIAN 3: ISIAN SINGKAT (5 BUTIR SOAL)
-  // Siswa mengetikkan jawaban singkat, dinilai dengan case-insensitive & sinonim wajar
+  // Mengetikkan jawaban singkat, dinilai dengan case-insensitive & variasi kata kunci
   // =========================================================================
 
-  // Soal 31: Isian - Norma Tertulis
+  // Soal 31: Isian - Jenis Aturan Berdasarkan Bentuk
   {
     id: 31,
     type: 'isian',
-    topic: 'Bentuk Aturan',
+    topic: 'Jenis-Jenis Aturan',
     difficulty: 'Mudah',
-    text: 'Aturan yang dibuat secara resmi, dicatat, dan disahkan oleh pihak yang berwenang seperti tata tertib sekolah dan undang-undang dinamakan aturan...',
+    text: 'Berdasarkan bentuknya, tata tertib sekolah dan rambu-rambu lalu lintas termasuk ke dalam jenis aturan...',
     correctAnswer: 'tertulis',
     acceptableAnswers: ['tertulis', 'aturan tertulis', 'hukum tertulis'],
     explanation:
-      'Aturan tertulis adalah aturan yang dituangkan dalam bentuk tulisan atau dokumen resmi yang disahkan oleh pejabat/lembaga berwenang.',
+      'Tata tertib sekolah dan rambu lalu lintas dibuat dalam wujud teks atau gambar resmi yang dicatat, sehingga termasuk jenis aturan tertulis.',
   },
 
-  // Soal 32: Isian - Sumber Norma Agama
+  // Soal 32: Isian - Aturan Penyeberangan di Jalan Raya
   {
     id: 32,
     type: 'isian',
-    topic: 'Norma Agama',
+    topic: 'Aturan di Jalan Raya',
     difficulty: 'Mudah',
-    text: 'Norma yang bersumber langsung dari wahyu Tuhan Yang Maha Esa dan terdapat di dalam kitab suci dinamakan norma...',
-    correctAnswer: 'agama',
-    acceptableAnswers: ['agama', 'norma agama'],
+    text: 'Garis-garis putih melintang di atas jalan raya yang disediakan bagi pejalan kaki untuk menyeberang dengan aman disebut...',
+    correctAnswer: 'zebra cross',
+    acceptableAnswers: ['zebra cross', 'zebracross', 'zebra cros', 'penyeberangan jalan'],
     explanation:
-      'Norma agama adalah petunjuk hidup yang berasal dari Tuhan Yang Maha Esa yang disampaikan melalui para nabi dan rasul serta tercantum dalam kitab suci.',
+      'Zebra cross adalah marka jalan berupa garis-garis putih yang merupakan aturan tempat penyeberangan aman bagi pejalan kaki.',
   },
 
-  // Soal 33: Isian - Kewajiban Menyeberang di Tempat yang Tepat
+  // Soal 33: Isian - Aturan di Fasilitas Umum (Mengantre)
   {
     id: 33,
     type: 'isian',
-    topic: 'Aturan Lalu Lintas',
+    topic: 'Aturan di Tempat Umum',
     difficulty: 'Sedang',
-    text: 'Garis-garis putih di atas permukaan aspal jalan raya yang disediakan khusus sebagai tempat penyeberangan bagi pejalan kaki disebut...',
-    correctAnswer: 'zebra cross',
-    acceptableAnswers: ['zebra cross', 'zebracross', 'zebra cros', 'tempat penyeberangan'],
+    text: 'Sikap berbaris teratur ke belakang menunggu giliran saat membeli tiket atau membayar belanjaan di kasir disebut budaya...',
+    correctAnswer: 'antre',
+    acceptableAnswers: ['antre', 'antri', 'mengantre', 'mengantri', 'budaya antre', 'budaya antri'],
     explanation:
-      'Zebra cross adalah marka jalan berupa garis-garis putih membujur yang diperuntukkan bagi pejalan kaki untuk menyeberang jalan raya dengan aman.',
+      'Budaya antre merupakan aturan penting di fasilitas umum yang mengajarkan kesabaran, keadilan, dan menghormati hak sesama.',
   },
 
-  // Soal 34: Isian - Hubungan Hak dan Kewajiban
+  // Soal 34: Isian - Aturan di Tempat Wisata (Vandalisme)
   {
     id: 34,
     type: 'isian',
-    topic: 'Hak dan Kewajiban',
+    topic: 'Aturan di Tempat Wisata',
     difficulty: 'Sedang',
-    text: 'Sesuatu yang harus kita laksanakan terlebih dahulu dengan penuh rasa tanggung jawab sebelum kita menuntut hak dinamakan...',
-    correctAnswer: 'kewajiban',
-    acceptableAnswers: ['kewajiban', 'kewajiban kita'],
+    text: 'Perbuatan merusak atau mencoret-coret fasilitas umum, dinding taman, dan situs bersejarah secara sembarangan disebut perbuatan...',
+    correctAnswer: 'vandalisme',
+    acceptableAnswers: ['vandalisme', 'vandal', 'merusak fasilitas', 'perusakan'],
     explanation:
-      'Kewajiban adalah segala sesuatu yang wajib dilaksanakan dengan penuh tanggung jawab sebelum seseorang menuntut haknya.',
+      'Vandalisme adalah tindakan merusak atau mencoret-coret sarana umum dan karya seni bersejarah tanpa izin, yang dilarang keras di berbagai tempat.',
   },
 
-  // Soal 35: Isian - Sanksi Norma Hukum
+  // Soal 35: Isian - Manfaat Mematuhi Aturan
   {
     id: 35,
     type: 'isian',
-    topic: 'Norma Hukum',
+    topic: 'Manfaat Aturan',
     difficulty: 'Sukar',
-    text: 'Sanksi bagi pelanggar norma hukum berbeda dengan norma lainnya karena sifat sanksi hukum adalah nyata, mengikat, dan...',
-    correctAnswer: 'tegas',
-    acceptableAnswers: ['tegas', 'memaksa', 'tegas dan memaksa'],
+    text: 'Jika seluruh warga di rumah, sekolah, dan masyarakat selalu menaati aturan yang berlaku, maka kehidupan bersama akan menjadi aman, damai, dan...',
+    correctAnswer: 'tertib',
+    acceptableAnswers: ['tertib', 'tenteram', 'tentram', 'nyaman', 'harmonis', 'rukun'],
     explanation:
-      'Sifat sanksi norma hukum adalah tegas dan memaksa, yang dijatuhkan oleh lembaga peradilan atau aparat penegak hukum yang berwenang.',
+      'Ketaatan seluruh warga terhadap aturan di berbagai tempat menciptakan suasana kehidupan yang tertib, teratur, aman, dan tenteram.',
   },
 ];

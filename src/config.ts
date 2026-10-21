@@ -10,7 +10,7 @@ export const CONFIG = {
   KOTA: "Jembrana",
   KELAS: "4",
   MATA_PELAJARAN: "PENDIDIKAN PANCASILA",
-  MATERI: "Bab 2 Aturan di Lingkungan Sekitar",
+  MATERI: "Aturan, Jenis-Jenis Aturan di Berbagai Tempat",
   GURU: "MADE RIRIN PRADITHA YANTI, S.Pd",
   NIP_GURU: "199104212020122008",
   KEPALA_SEKOLAH: "SUSILO FITRI YATMOKO, M.Pd",
